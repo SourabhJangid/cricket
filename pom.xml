@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>2.4.0</version>
+    </parent>
+
+    <groupId>org.qjob</groupId>
+    <artifactId>cricket</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+<!--    <properties>-->
+<!--        <maven.compiler.source>17</maven.compiler.source>-->
+<!--        <maven.compiler.target>17</maven.compiler.target>-->
+<!--        <org.springframework.version>2.5.6</org.springframework.version>-->
+<!--        <batch.version>3.0.10.RELEASE</batch.version>-->
+<!--        <data.version>2.4.0</data.version>-->
+<!--        <com.h2database.version>1.4.200</com.h2database.version>-->
+<!--        <boot.version>2.5.6</boot.version>-->
+<!--        <boot.autoconfigure.version>2.5.6</boot.autoconfigure.version>-->
+<!--        <spring-core.version>5.3.0</spring-core.version>-->
+<!--    </properties>-->
+    <dependencies>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+<!--            <version>${boot.version}</version>-->
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-web</artifactId>
+<!--            <version>${org.springframework.version}</version>-->
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.batch</groupId>
+            <artifactId>spring-batch-core</artifactId>
+<!--            <version>${batch.version}</version>-->
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.data</groupId>
+            <artifactId>spring-data-jpa</artifactId>
+<!--            <version>${data.version}</version>-->
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-jpa</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.h2database</groupId>
+            <artifactId>h2</artifactId>
+<!--            <version>${com.h2database.version}</version>-->
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-autoconfigure</artifactId>
+<!--            <version>${boot.autoconfigure.version}</version>-->
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-core</artifactId>
+<!--            <version>${spring-core.version}</version>-->
+        </dependency>
+    </dependencies>
+</project>
