@@ -1,0 +1,11 @@
+com\qjob\cricket\repository\MatchRepository.class
+com\qjob\cricket\Model\Match.class
+com\qjob\cricket\repository\TeamRepository.class
+com\qjob\cricket\Model\Team.class
+com\qjob\cricket\data\BatchConfig$1.class
+com\qjob\cricket\data\MatchInput.class
+com\qjob\cricket\Cricket.class
+com\qjob\cricket\data\BatchConfig.class
+com\qjob\cricket\controller\TeamController.class
+com\qjob\cricket\data\MatchDataProcessor.class
+com\qjob\cricket\data\JobCompletionNotificationListener.class
